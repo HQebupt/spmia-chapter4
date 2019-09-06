@@ -6,7 +6,8 @@ spring:
       default
   cloud:
     config:
-      enabled: true
+      url: http://localhost:8888
+#      enabled: true
 #      discovery:
 #        enabled: true
 #        serviceId: configserver

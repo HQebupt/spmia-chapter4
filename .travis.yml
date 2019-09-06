@@ -20,7 +20,7 @@ env:
 script:
   - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
   - mvn clean package docker:build
-  - docker push johncarnell/tmx-licensing-service:chapter4
+  - docker push johncarnell/tmx-licensingservice:chapter4
   - docker push johncarnell/tmx-organization-service:chapter4
   - docker push johncarnell/tmx-confsvr:chapter4
   - docker push johncarnell/tmx-eurekasvr:chapter4

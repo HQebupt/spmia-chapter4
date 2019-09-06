@@ -24,11 +24,9 @@ public class Organization {
     @Column(name = "contact_phone", nullable = false)
     String contactPhone;
 
-
     public String getId() {
         return id;
     }
-
 
     public void setId(String id) {
         this.id = id;
@@ -65,6 +63,4 @@ public class Organization {
     public void setContactPhone(String contactPhone) {
         this.contactPhone = contactPhone;
     }
-
-
 }
